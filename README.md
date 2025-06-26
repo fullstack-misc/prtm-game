@@ -34,9 +34,13 @@ Créer un processus automatisé avec interaction d'une *API* externe :
       PASSWORD2=abcd1234
       ```
       (s'assurer d'avoir le `/` à la fin de la valeur de `API_URL`)
-4. Lancer l'application :
+4. Lancer l'application via l'une des deux commandes suivantes :
    ```bash
    npm run start
+   ```
+   ou pour le mode développement :
+   ```bash
+   npm run dev
    ```
 
 ## Améliorations possibles
